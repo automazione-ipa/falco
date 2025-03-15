@@ -4,10 +4,7 @@ def fibonacci(n):
 
     for i in range(int(n)):
         print(str(first) + ' ')
-        first_temp = first
-        first = second
-        second = first_temp + second
-        
+        first, second = second, first + second
  
 print('Enter nth fibonacci number you want to see: ')
 fib_n_th = input()

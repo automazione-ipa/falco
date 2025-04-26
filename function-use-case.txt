@@ -1,0 +1,6 @@
+Desc: log reading automatation for faling endpoints of an integration layer.
+Functions:
+	- function for file reading
+	- function for file writing 
+Prompt: read file 'log-file.log' and returns a file 'ep-responses.txt' that
+contains all invoked ep(s) and all responses returned.  
